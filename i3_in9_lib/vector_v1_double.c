@@ -76,6 +76,7 @@ void vector_v1_double_pop_back(p_s_vector_v1_double p_vector){
 
 void vector_v1_double_clear(p_s_vector_v1_double p_vector){
 	free(p_vector->pointeurDouble);
+	p_vector->nbElement = 0;
 }
 int vector_v1_double_empty(p_s_vector_v1_double p_vector){
 	if(p_vector->nbElement>0){
