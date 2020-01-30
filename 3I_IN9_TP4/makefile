@@ -8,4 +8,3 @@ my_struct.o :  my_struct.c
 
 clean :
 	rm -f *.o monprogramme
-

@@ -159,24 +159,20 @@
 			"buffers":
 			[
 				{
-					"contents": "#include <stddef.h>\n#include <stdlib.h>\n#include <stdio.h>\n#include \"my_struct.h\"\nint main(int argc, char *argv[]){\n\n}",
 					"file": "/C/Users/mestrep/Desktop/Structure-de-donne/3I_IN9_TP4/test_my_struct.c",
-					"file_size": 0,
-					"file_write_time": 132248517214381801,
 					"settings":
 					{
 						"buffer_size": 118,
+						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"contents": "#include <stddef.h>\n#ifndef _LINKEDLIST_H_\n#define _LINKEDLIST_H_\n\ntypedef struct struct_vector_v1_double{\n\tint nbElement;\n\tdouble* pointeurDouble;\n}s_vector_v1_double;\n\ntypedef s_vector_v1_double *p_s_vector_v1_double;\n\n\n\n\n#endif",
 					"file": "/C/Users/mestrep/Desktop/Structure-de-donne/3I_IN9_TP4/my_struct.h",
-					"file_size": 0,
-					"file_write_time": 132248517214381801,
 					"settings":
 					{
 						"buffer_size": 230,
+						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
@@ -184,19 +180,17 @@
 					"file": "/C/Users/mestrep/Desktop/Structure-de-donne/3I_IN9_TP4/makefile",
 					"settings":
 					{
-						"buffer_size": 179,
+						"buffer_size": 178,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"contents": "#include <stddef.h>\n#include <stdlib.h>\n#include \"my_struct.h\"\np_s_vector_v1_double vector_v1_double_alloc(size_t n){\n\n\tp_s_vector_v1_double vecteur = malloc(sizeof(s_vector_v1_double));\n\tvecteur->nbElement = n;\n\tvecteur->pointeurDouble=malloc(sizeof(double)*n);\n\tfor (int i = 0; i<n; i++){\n\t\tvecteur->pointeurDouble[i]=0.0;\n\t}\n\n\treturn vecteur;\n\n}\n\nvoid vector_v1_double_free(p_s_vector_v1_double p_vector){\n\tfree(p_vector->pointeurDouble);\n\tfree(p_vector);\n}",
 					"file": "/C/Users/mestrep/Desktop/Structure-de-donne/3I_IN9_TP4/my_struct.c",
-					"file_size": 0,
-					"file_write_time": 132248517214381801,
 					"settings":
 					{
 						"buffer_size": 460,
+						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				}
@@ -286,7 +280,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -314,7 +308,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
@@ -351,15 +345,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 179,
+								"buffer_size": 178,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										179,
-										179
+										178,
+										178
 									]
 								],
 								"settings":
@@ -370,7 +364,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
@@ -398,7 +392,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 2,
 							"type": "text"
 						}
 					]
